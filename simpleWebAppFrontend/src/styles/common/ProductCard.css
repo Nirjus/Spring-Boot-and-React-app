@@ -1,0 +1,36 @@
+.cardContainer{
+    border-radius: 10px;
+    border: double 1px rgb(180, 180, 180);
+    background-color: rgb(213, 213, 211);
+    padding: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    position: relative;
+}
+.cardContainer:hover{
+    background-color: rgb(244, 218, 185);
+}
+.cardHeader{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight:700;
+    color: brown;
+}
+p{
+    font-size: 15px;
+    color: rgb(80, 80, 80);
+}
+h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.addToCartBtn:hover{
+    background-color: rgb(114, 255, 135);
+}

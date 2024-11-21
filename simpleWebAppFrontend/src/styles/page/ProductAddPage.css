@@ -1,0 +1,44 @@
+.formClass{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.labelText{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inputClass{
+    padding: 13px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size:15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.subInputClass{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    row-gap: 20px;
+    column-gap: 30px;
+    width: 100%;
+}
+.sendBtn{
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 0px;
+    color: white;
+    background-color: indigo;
+    border-radius: 5px;
+}
+.sendBtn:hover{
+    background-color: blue;
+}
+
+@media (max-width:786px) {
+    .subInputClass{
+        flex-direction: column;
+    }
+    .formClass{
+        width: 80%;
+    }
+}

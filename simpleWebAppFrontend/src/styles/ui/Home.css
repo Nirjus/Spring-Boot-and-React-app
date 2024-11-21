@@ -1,0 +1,17 @@
+.homeContainer{
+    padding: 20px;
+}
+.productSpace{
+    display: grid;
+    gap: 20px; /* Adds a 10px gap between grid items */
+    grid-template-columns: repeat(1, 1fr); /* Default to 1 column */
+
+    /* Media queries for responsiveness */
+    @media (min-width: 768px) { /* For medium screens (md) */
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 1024px) { /* For large screens (lg) */
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
